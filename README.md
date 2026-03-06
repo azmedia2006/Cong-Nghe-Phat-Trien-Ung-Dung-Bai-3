@@ -1,28 +1,113 @@
-# Công Nghệ Phát Triển Ứng Dụng - Bài 3
+# 🚀 Công Nghệ Phát Triển Ứng Dụng - Bài 3
 
-Đây là mã nguồn dự án Web ứng dụng mô hình MVC (Model - View - Controller) sử dụng nền tảng ASP.NET Core.
-
-## 🛠️ Yêu cầu hệ thống (Prerequisites)
-
-Để chạy được dự án này trên máy tính, bạn cần cài đặt:
-1. **[.NET SDK](https://dotnet.microsoft.com/en-us/download)** (Khuyến nghị cài đặt phiên bản .NET 6, 7 hoặc 8 tùy thuộc vào phiên bản bạn đã dùng để tạo project).
-2. **Công cụ lập trình (IDE):** Khuyến nghị sử dụng **[Visual Studio 2022](https://visualstudio.microsoft.com/)** hoặc **Visual Studio Code** (có cài C# extension).
+Project phục vụ cho môn **Công Nghệ Phát Triển Ứng Dụng**.
+Source được upload để chạy và tham khảo.
 
 ---
 
-## 🚀 Hướng dẫn cách chạy dự án (How to run)
+## 👨‍💻 Developer
 
-### Cách 1: Chạy bằng Visual Studio 2022 (Khuyên dùng)
-1. Tải mã nguồn về máy: 
-   - Nhấn nút **Code** màu xanh trên GitHub -> Chọn **Download ZIP** và giải nén.
-   - HOẶC dùng lệnh git: `git clone https://github.com/azmedia2006/Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3.git`
-2. Mở thư mục vừa tải về, click đúp vào file `DMQuan.csproj` (hoặc file `.sln` nếu có) để mở project bằng Visual Studio.
-3. Chờ Visual Studio tải các thư viện cần thiết (Restore NuGet Packages).
-4. Nhấn nút **Play (mũi tên màu xanh)** ở thanh công cụ phía trên hoặc nhấn phím **F5** để chạy dự án.
-5. Trình duyệt sẽ tự động mở trang web lên (thường là `https://localhost:<port>`).
+Dev: **Minh Quân**
 
-### Cách 2: Chạy bằng Command Line (Terminal / CMD / VS Code)
-1. Mở Terminal hoặc Command Prompt.
-2. Clone dự án về máy:
-   ```bash
-   git clone [https://github.com/azmedia2006/Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3.git](https://github.com/azmedia2006/Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3.git)
+Full source:
+https://gofile.io/d/4sqDlM
+
+GitHub:
+https://github.com/azmedia2006/Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3
+
+---
+
+# 📥 Cách chạy project
+
+## 1️⃣ Clone project
+
+```bash
+git clone https://github.com/azmedia2006/Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3.git
+```
+
+## 2️⃣ Vào thư mục project
+
+```bash
+cd Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3
+```
+
+## 3️⃣ Cài thư viện (nếu có)
+
+NodeJS:
+
+```bash
+npm install
+```
+
+Python:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4️⃣ Chạy project
+
+NodeJS:
+
+```bash
+npm start
+```
+
+hoặc
+
+```bash
+node server.js
+```
+
+Python:
+
+```bash
+python main.py
+```
+
+---
+
+# 🌐 Truy cập website
+
+Mở trình duyệt và truy cập:
+
+```
+http://localhost:3000
+```
+
+hoặc
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+# ⚠️ Nếu bị lỗi
+
+Chạy lại:
+
+```bash
+npm install
+```
+
+hoặc
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ⭐ Credit
+
+Dev: **Minh Quân**
+
+GitHub:
+https://github.com/azmedia2006/Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3
+
+---
+
+# 📜 License
+
+Project phục vụ cho mục đích **học tập và nghiên cứu**.
