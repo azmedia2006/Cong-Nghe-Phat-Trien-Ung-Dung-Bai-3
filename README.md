@@ -1,100 +1,115 @@
-# 🚀 Công Nghệ Phát Triển Ứng Dụng - Bài 3
+# 🚀 Công Nghệ Phát Triển Ứng Dụng - Bài 3 (C#)
 
-Project phục vụ cho môn **Công Nghệ Phát Triển Ứng Dụng**.
-Source được upload để chạy và tham khảo.
+Project bài tập môn **Công Nghệ Phát Triển Ứng Dụng** được xây dựng bằng **C# / .NET**.
 
 ---
 
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
 Dev: **Minh Quân**
 
-Full source:
+Source đầy đủ:
 https://gofile.io/d/4sqDlM
 
-GitHub:
+GitHub Repo:
 https://github.com/azmedia2006/Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3
 
 ---
 
-# 📥 Cách chạy project
+# ⚙️ Yêu cầu hệ thống
 
-## 1️⃣ Clone project
+Trước khi chạy project cần cài:
+
+* .NET SDK (khuyến nghị .NET 6 hoặc .NET 7)
+* Visual Studio 2022 hoặc VS Code
+* Git
+
+---
+
+# 📥 Cách tải project
+
+Clone project từ GitHub:
 
 ```bash
 git clone https://github.com/azmedia2006/Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3.git
 ```
 
-## 2️⃣ Vào thư mục project
+Di chuyển vào thư mục project:
 
 ```bash
 cd Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3
 ```
 
-## 3️⃣ Cài thư viện (nếu có)
+---
 
-NodeJS:
+# ▶️ Chạy project bằng .NET CLI
+
+Restore package:
 
 ```bash
-npm install
+dotnet restore
 ```
 
-Python:
+Build project:
 
 ```bash
-pip install -r requirements.txt
+dotnet build
 ```
 
-## 4️⃣ Chạy project
-
-NodeJS:
+Chạy project:
 
 ```bash
-npm start
-```
-
-hoặc
-
-```bash
-node server.js
-```
-
-Python:
-
-```bash
-python main.py
+dotnet run
 ```
 
 ---
 
-# 🌐 Truy cập website
+# 🖥️ Chạy bằng Visual Studio
 
-Mở trình duyệt và truy cập:
+1. Mở **Visual Studio**
+2. Chọn **Open a project or solution**
+3. Mở file `.sln`
+4. Nhấn **Start (F5)** để chạy project
+
+---
+
+# 🌐 Truy cập ứng dụng
+
+Sau khi chạy thành công mở trình duyệt:
 
 ```
-http://localhost:3000
+http://localhost:5000
 ```
 
 hoặc
 
 ```
-http://127.0.0.1:5000
+https://localhost:5001
 ```
 
 ---
 
-# ⚠️ Nếu bị lỗi
+# 📂 Cấu trúc project
+
+```
+project
+│
+├── Controllers
+├── Models
+├── Views
+├── wwwroot
+├── Program.cs
+└── README.md
+```
+
+---
+
+# ⚠️ Nếu bị lỗi package
 
 Chạy lại:
 
 ```bash
-npm install
-```
-
-hoặc
-
-```bash
-pip install -r requirements.txt
+dotnet restore
 ```
 
 ---
@@ -110,4 +125,4 @@ https://github.com/azmedia2006/Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3
 
 # 📜 License
 
-Project phục vụ cho mục đích **học tập và nghiên cứu**.
+Project phục vụ cho **mục đích học tập và nghiên cứu**.
