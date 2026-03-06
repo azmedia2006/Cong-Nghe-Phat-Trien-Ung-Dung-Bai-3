@@ -2,7 +2,7 @@
 
 Dự án ứng dụng Web áp dụng kiến trúc MVC (Model - View - Controller) được xây dựng trên nền tảng ASP.NET Core mạnh mẽ. 
 
-**🧑‍💻 Nguồn code / Phát triển bởi:** Dev Minh Quân  
+**🧑‍💻 Nguồn code / Phát triển bởi:** QUÂN IT  
 **📦 Link tải Full Code (Bản đầy đủ):** [Tải tại Gofile](https://gofile.io/d/4sqDlM)  
 **🔗 Repository chính:** [GitHub - Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3](https://github.com/azmedia2006/Cong-Nghe-Phat-Trien-Ung-Dung-Bai-3)
 
