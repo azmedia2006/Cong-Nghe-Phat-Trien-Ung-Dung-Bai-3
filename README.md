@@ -118,7 +118,7 @@ Depending on your infrastructure:
     4. Setup your MS SQL Database in the control panel and update `appsettings.json` accordingly.
     5. 
 
-    ![Uploading image.png…]()
+
 
 
 * **Option C: Linux VPS (Ubuntu/CentOS)**
